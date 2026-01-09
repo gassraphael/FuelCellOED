@@ -1,0 +1,11 @@
+moo-sim-interface/
+outcmaes/
+.vscode/
+maenv/
+examples/02_derivations_estimator_errors/model/__pycache__/
+examples/02_derivations_estimator_errors/model/helper/__pycache__/
+*__pycache__*
+.idea/
+/external/
+/data/experimental_designs/oc_param_hypercube_validation_data.csv
+/data/experimental_designs/oc_param_hypercube_validation_data_agg.csv

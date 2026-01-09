@@ -1,0 +1,29 @@
+number_designs: 25
+n_rep: 100
+n_current_values: 10
+sigma: 0.01
+parameter_index: 2 # individual parameter from parameter set that shall be evaluated in the Pi-Design
+number_new_designs: 5 # number of new designs
+iterations: 100 # maximum iterations of minimizer function
+
+upper_bounds_operating_conditions:
+  - 350000      # p.Si.A [Pa]
+  - 368.15      # T.So.CL [K]
+  - 3.5         # Stoic.Si.C [-]
+
+lower_bounds_operating_conditions:
+  - 130000      # p.Si.A [Pa]
+  - 318.15      # T.So.CL [K]
+  - 1.3         # Stoic.Si.C [-]
+
+unscaled_upper_bounds_free_params:
+  - 100000   # E_A
+  - 500      # j_0_ref
+  - 1.5       # f_CL
+  - 0.00005  # r_el
+
+unscaled_lower_bounds_free_params:
+  - 1000     # E_A
+  - 0.01     # j_0_ref
+  - 0.1      # f_CL
+  - 0.0000005 # r_el
