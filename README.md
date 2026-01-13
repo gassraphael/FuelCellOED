@@ -23,7 +23,7 @@ To install all necessary dependencies for the notebooks in this folder, follow t
     ```
 
 # Repository Structure
-This repository aggregates all workflow modules and supporting resources, including visualization functions and data preparation tools. It is organized into three main directories: `data`, `examples`, and `src`.
+This repository aggregates all workflow modules and supporting resources according to the publication "Optimal Experimental Design for Fuel Cell Model Parameter Identification", including visualization functions and data preparation tools. It is organized into three main directories: `data`, `examples`, and `src`.
 
 ## `data/`
 Contains all data used in the generation of results, as well as intermediate and output files produced by the modules.
@@ -61,5 +61,6 @@ Contains all functional modules of the repository. A complete description of all
   Contains all visualization functions, including plotting polarization curves, parameter estimations, and parameter variations.
 
 # Usage
-Together, these Modules enable execution of OED Methods for Fuel Cell System applications. 
-They can be flexibly applied to different FCS Models, given they are present in a analytically closed form. For usage reference please refer to the example Notebooks.
+Together, these modules enable execution of OED methods for parametric models. 
+They can be flexibly applied to different FC models, as well as other applications, given the models are present in a analytically closed form. For usage reference please refer to the example notebooks.
+
