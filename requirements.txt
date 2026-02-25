@@ -1,7 +1,7 @@
 setuptools~=80.9.0
-numpy==2.2.6
+numpy~=2.2.6
 pandas==2.3.1
-matplotlib==3.10.3
+matplotlib~=3.10.3
 scikit-learn==1.7.1
 scikit-optimize==0.10.2
 jupyter==1.1.1
@@ -14,4 +14,4 @@ scipy~=1.15.3
 oed~=0.0.1
 plotly~=6.2.0
 tqdm~=4.66.3
-git+https://github.com/gassraphael/AlphaPEM.git
+AlphaPEM @ git+https://github.com/gassraphael/AlphaPEM.git
