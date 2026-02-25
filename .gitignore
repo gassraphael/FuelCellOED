@@ -1,7 +1,7 @@
 moo-sim-interface/
 outcmaes/
 .vscode/
-maenv/
+env/
 examples/02_derivations_estimator_errors/model/__pycache__/
 examples/02_derivations_estimator_errors/model/helper/__pycache__/
 *__pycache__*

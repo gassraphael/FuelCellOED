@@ -1,5 +1,5 @@
 setuptools~=80.9.0
-numpy==2.3.1
+numpy==2.2.6
 pandas==2.3.1
 matplotlib==3.10.3
 scikit-learn==1.7.1
@@ -10,7 +10,7 @@ seaborn==0.13.2
 pytest==8.4.1
 cma~=4.3.0
 oed @ git+https://github.com/hm-mhertel/oed_fcs.git
-scipy~=1.16.0
+scipy~=1.15.3
 oed~=0.0.1
 plotly~=6.2.0
 tqdm~=4.66.3
