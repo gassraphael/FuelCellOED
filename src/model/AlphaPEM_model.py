@@ -6,7 +6,7 @@ from src.model.interface.fuel_cell_stack_model import FuelCellStackModel
 from src.math_utils.scaler.interface.scaler import ParameterScaler
 from src.model.parameter_set.interface.parameter_set import ParameterSet
 
-from AlphaPEM import AlphaPEM
+from alphapem import AlphaPEM
 
 
 class AlphaPEMStackModel(AlphaPEM, FuelCellStackModel):

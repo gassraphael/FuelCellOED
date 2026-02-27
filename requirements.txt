@@ -5,13 +5,12 @@ matplotlib~=3.10
 scikit-learn==1.7
 scikit-optimize==0.10
 jupyter==1.1
-SAlib==1.5
+salib==1.5
 seaborn==0.13
 pytest==8.4
 cma~=4.3.0
 oed @ git+https://github.com/hm-mhertel/oed_fcs.git
 scipy~=1.15
-oed~=0.0.1
 plotly~=6.2
 tqdm~=4.66
-AlphaPEM @ git+https://github.com/gassraphael/AlphaPEM.git
+alphapem @ git+https://github.com/gassraphael/AlphaPEM.git
